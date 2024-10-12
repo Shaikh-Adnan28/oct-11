@@ -1,0 +1,68 @@
+.home-section{
+    background-image: url(security-service-hero-img-bg.jpg);
+    background-size: cover;
+    /* height: 100vh; */
+}
+.home-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 112%;
+    background: #00000083;
+}
+.vh-100{
+    height: 100vh;
+}
+.w-br{
+    border: 2px solid white;
+}
+.b-br{
+    border: 2px solid black;
+}
+.right-text p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.right-text h1{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading{
+    height: 400px;
+    width: 100%;
+    background-color: #25272D;
+}
+.heading h1{
+    position: relative;
+}
+.heading h1::before{
+    content: "";
+    position: absolute;
+    bottom:-10%;
+    left: 25%;
+    width: 80px;
+    border: 2px solid red ;
+    border-radius: 10px;
+}
+.heading h2{
+    position: relative;
+}
+.heading h2::before{
+    content: "";
+    position: absolute;
+    bottom:-20%;
+    left: 10%;
+    width: 80px;
+    border: 2px solid red ;
+    border-radius: 10px;
+}
+.services-card{
+    height: 250px;
+}
+.about-left img{
+    height: 80%;
+}
